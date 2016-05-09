@@ -1,0 +1,214 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+}
+
+body {
+  padding-top: 50px;
+  font: 18px/1.5 'PT Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: #ebebeb;
+}
+
+.page {
+  max-width: 1200px;
+  padding: 25px 0;
+}
+
+p {
+  font-weight: 300;
+}
+a {
+  color: #5c0000;
+}
+
+.navbar {
+  border-radius: 0;
+  margin-bottom: 0;
+  font: 16px/1.4 'Share Tech Mono', cursive;
+ }
+ .navbar-brand {
+  margin-top: -15px;
+ }
+
+.hero {
+  margin: 0;
+  padding: 0;
+  background: url(../img/photos/shooter-thuha-range.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 500px;
+}
+.hero h4, .hero h5 {
+  color: #5c0000;
+  text-shadow: 0px 0px 20px rgba(255, 255, 255, 1);
+}
+.hero h4 {
+  font-size: 225%;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bolder;
+}
+.hero h5 {
+  font-size: 475%;
+  font-weight: 700;
+  font-family: 'Share Tech Mono', cursive;
+}
+
+.hero-store {
+  margin: 0;
+  padding: 0;
+  background: url(../img/hero-gun-store.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 400px;
+}
+.hero-store-try {
+  margin: 0;
+  padding: 0;
+  background: url(../img/photos/shooter-man-range.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 400px;
+}
+.hero-gunsmithing {
+  margin: 0;
+  padding: 0;
+  background: url(../img/gunsmithing.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 400px;
+}
+.hero-range {
+  margin: 0;
+  padding: 0;
+  background: url(../img/shooting-range.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 400px;
+}
+.dark-grey {
+  background-color: #000;
+  background-image: url(../img/black-paper.png);
+  color: #eee;
+  padding: 25px;
+}
+.grey, .grey-box {
+  background-color: #333;
+  background-image: url(../img/mooning.png);
+  color: #fff;
+}
+.grey h2 {
+  font-size: 250%;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+}
+.grey h3 {
+  font-size: 120%;
+  margin: 0;
+  color: #5c0000;
+}
+
+.grey-box {
+  margin: 25px;
+  padding: 25px;
+}
+.red, .subnav {
+  background-color: #7b1413;
+  background-image: url(../img/concrete-wall.png);
+  color: #fff;
+  padding: 30px;
+}
+.red {
+  padding: 30px;
+}
+
+.orange, div.subnav:hover, div.subnav-active {
+  background-color: rgba(204, 119, 34, 1);
+  color: #fff;
+}
+.subnav, .subnav-active {
+  padding: 2px 0 5px 20px;
+  margin: 15px 0px;
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
+}
+a div.subnav h4, div.subnav-active h4 {
+  font-weight: 700;
+  font-family: 'Share Tech Mono', cursive;
+}
+a:hover {
+  text-decoration: none;
+}
+
+
+#about, #water-wastewater-treatment-plants, #pump-stations, #pipe-lines, #current-projects, #contact-us {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.about {
+  background-color: #5c0000;
+}
+
+#current-projects .col-md-4, #current-projects .col-md-6, #current-projects .col-md-12 {
+  padding: 20px;
+}
+#current-projects h3 {
+  color: #333;
+}
+#current-projects h4 {
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+
+.overlay {
+   background:transparent; 
+   position:relative; 
+   width:100%;
+   height:500px; /* your iframe height */
+   top:500px;  /* your iframe height */
+   margin-top:-500px;  /* your iframe height */
+}
+
+.footer-grey {
+  min-height: 200px;
+  padding: 25px;
+  background-color: #333;
+  background-image: url(../img/mooning.png);
+  color: #ccc;
+  font: 14px/1.4 'Share Tech Mono', cursive;
+}
+.footer-grey h3 {
+  margin-top: 0;
+}
+.footer-grey ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.footer-grey a {
+  color: #ccc;
+}
+.footer-grey a:hover {
+  text-decoration: underline;
+}
+.footer {
+  padding-top: 20px;
+  background-color: #000;
+  background-image: url(../img/black-paper.png);
+  color: #eee;
+  font: 12px/1.4 'Share Tech Mono', cursive;
+}
