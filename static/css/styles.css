@@ -129,13 +129,14 @@ a {
   color: #fff;
   padding: 30px;
 }
-.red {
-  padding: 30px;
-}
 
 .orange, div.subnav:hover, div.subnav-active {
   background-color: rgba(204, 119, 34, 1);
   color: #fff;
+}
+.orange {
+  background-image: url(../img/concrete-wall.png);
+  padding: 30px;
 }
 .subnav, .subnav-active {
   padding: 2px 0 5px 20px;
