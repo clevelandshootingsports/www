@@ -31,6 +31,9 @@ a {
  .navbar-brand {
   margin-top: -15px;
  }
+ .navbar-brand img {
+  height: 45px;
+ }
 
 .hero {
   margin: 0;
