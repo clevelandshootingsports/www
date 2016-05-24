@@ -79,15 +79,16 @@ hr {
   background-size: cover;
   min-height: 400px;
 }
-.hero-store-try {
+.hero-storefront {
   margin: 0;
   padding: 0;
-  background: url(../img/photos/shooter-man-range.png) no-repeat center center;
+  background: url(../img/storefront.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   min-height: 400px;
+  border-top: 1px solid #333;
 }
 .hero-gunsmithing {
   margin: 0;
@@ -224,5 +225,8 @@ a:hover {
   background-color: #000;
   background-image: url(../img/black-paper.png);
   color: #eee;
-  font: 12px/1.4 'Share Tech Mono', cursive;
+  font: 14px/1.6 'Share Tech Mono', cursive;
+}
+.footer a {
+  color: #ccc;
 }
