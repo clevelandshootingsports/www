@@ -110,6 +110,21 @@ hr {
   background-size: cover;
   min-height: 400px;
 }
+.available {
+  background-color: green;
+  background-image: url(../img/mooning.png);
+  color: #fff;
+  padding: 1%;
+  font: 16px/1.4 'Share Tech Mono', cursive;
+}
+.full {
+  background-color: orange;
+  background-image: url(../img/mooning.png);
+  color: #fff;
+  padding: 1%;
+  font: 16px/1.4 'Share Tech Mono', cursive;
+}
+
 .dark-grey {
   background-color: #000;
   background-image: url(../img/black-paper.png);
@@ -120,7 +135,13 @@ hr {
   background-color: #333;
   background-image: url(../img/mooning.png);
   color: #fff;
+}
+.grey-box {
   padding: 50px;
+}
+.grey div.col-md-6 {
+  padding-right: 0;
+  padding-left: 0;
 }
 .grey h2 {
   font-size: 200%;
@@ -131,6 +152,9 @@ hr {
   font-size: 120%;
   margin: 0;
   color: #5c0000;
+}
+.grey button {
+  font-weight: bold;
 }
 
 .grey-box {

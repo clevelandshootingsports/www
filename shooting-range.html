@@ -37,7 +37,7 @@
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li><a href="gun-store.html" data-toggle="collapse" data-target="#navbar">GUN STORE</a></li>
-            <li class="active"><a href="shooting-range.html" data-toggle="collapse" data-target="#navbar">SHOOTING RANGE</a></li>
+            <li><a href="shooting-range.html" data-toggle="collapse" data-target="#navbar">SHOOTING RANGE <font size="-1" color="green">[available]</font></a></li>
             <li><a href="tn-carry-permit-class.html" data-toggle="collapse" data-target="#navbar">CLASSES</a></li>
             <li><a href="gunsmithing.html" data-toggle="collapse" data-target="#navbar">GUNSMITHING</a></li>
             <li><a href="about-us.html" data-toggle="collapse" data-target="#navbar">THE EXPERTS</a></li>
@@ -53,14 +53,23 @@
       <div class="container-fluid text-center"></div>
     </div>
 
-    <div class="grey">
+    <!-- This section should show when business is open and lanes are available. -->
+    <div class="available">
       <div class="row">
-        <div class="col-md-12 text-center" style="padding: 50px;">
-          <h2>"The only thing that stops a bad guy with a gun<br>is a good guy with a gun."</h2>
-          <h3>Wayne LaPierre, NRA Executive VP</h3>
+        <div class="col-md-12 text-center">
+          <h3>WE HAVE LANES AVAILABLE NOW</h3>
         </div>
       </div>
     </div>
+    <!--  This section should show when business is open and lanes are full. 
+    <div class="full">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h3>ALL LANES ARE CURRENTLY FULL</h3>
+        </div>
+      </div>
+    </div>
+    <!-- Neither of the two sections above should show when business is closed. -->
 
     <!-- Begin page content -->
     <div class="container-fluid page">
@@ -81,41 +90,54 @@
       </div>
       <div class="row">
         <div class="col-md-8">
-          <h2>8 NICE AND COOL INDOOR LANES</h2>
-          <p>Our indoor shooting range is air-conditioned, well-lit and built to meet NRA Guidelines. There are 8 shooting lanes, 2 of which are wheelchair accessible. All lanes are at a shooting distance of 25 yards (75 ft.) and equipped with individually retrievable mechanical target systems.  An 8 ton safety berm prevents penetration through the target wall.</p>
-          <p>We offer Class II and III handgun as well as Class III suppressor rental for use at the range. Firearms and accessories are also available for purchase.</P>
-          <p>We are open weekdays from 9:00am to 7:00pm EST and Saturdays from 9:00am to 4:00pm EST.  Stop by anytime.</P>
-          <h3>RANGE HOURS AND ACCESSIBILITY</h3>
-          <p>Except for holidays and inclement weather, our range is open Monday through Friday from 9:00am to 7:00pm EST and Saturdays from 9:00am to 4:00pm EST. Our shooting range is wheelchair accessible.</p>
-          <h3>DAILY LANE FEES (MEMBERS SHOOT FREE)</h3>
-          <p>Daily fees are $15 for the first shooter and $10 for the second shooter in a single lane. If the second shooter is 13 to 21 years old, he or she may join for just $7.50.</p>
-          <h3>GUN AND SUPPRESSOR RENTALS</h3>
-          <p>If you choose to rent one of our guns, you must also purchase and use our ammunition. Handgun rentals are $15/day and suppressor rentals are $20/day.</p>
-          <h2>RANGE RULES</h2>
-          <ul>
-            <li>NEVER ASK and NEVER ALLOW anyone to point any weapon at any person for any reason.</li>
-            <li>No more than 2 people per lane.</li>
-            <li>No rifles or shotguns allowed in the range.</li>
-            <li>The Range Safety Officer must approve all guns and ammunition carried in.</li>
-            <li>No one under the age of 10 is allowed at any time.</li>
-            <li>Minors (age 10 to 20 years) must be accompanied by an adult (age 21 years or older).</li>
-            <li>Eye protection, hearing protection and closed-toe shoes are required at all times.</li>
-          </ul>
-          <h3>MORE INFORMATION</h3>
-          <p>No experience is necessary for lane use. If you do not know how to use a firearm properly, any of our team members will be happy to show you how to handle your gun safely.</p>
-          <p>Photos are allowed as long as everyone involved is following safety guidelines and there is no distraction for other shooters, photos are welcome. However, photographers must respect any request from others that they refrain from picture-taking.</p>
-          <p>Due to necessary ventilation, you may be most comfortable with a light jacket.</p>
+          <h2>8 Nice, new and very cool indoor lanes.</h2>
+          <p class="lead">Our indoor shooting range is air-conditioned, well-lit and built to meet NRA Guidelines. There are 8 shooting lanes, all offering a shooting distance of 25 yards (75 ft.) and equipped with individually retrievable mechanical target systems. An 8-ton safety berm prevents penetration through the target wall.</p>
+          <p class="lead">No experience is necessary for lane use. If you don't know how to use a firearm or if you're uncertain about anything, please see one of our experts, any one will be happy to help you.</p>
+          <p class="lead">Eye and ear protection are required at all times as well as closed-toe shoes. Due to necessary ventilation, you may be most comfortable with a light jacket.</p>
+          <h3>Accessibility</h3>
+          <p>Except for holidays and inclement weather, our shooting range is open during normal business hours.  The range entrance and waiting area is wheelchair accessible as well as 2 of our 8 lanes.</p>
+          <h3>Gun and suppressor rentals</h3>
+          <p>We offer Class II and III handgun as well as Class III suppressor rental for use at the range. Ammunition, firearms and other accessories (such as eye and ear protection) are also available for purchase.</p>
+          <p>If you choose to rent one of our firearms, you must also purchase and use our ammunition.</p>
+          <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-2"><b>Handguns</b></div>
+            <div class="col-md-7">$15 per day</div>
+          </div>
+          <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-2"><b>Suppressors</b></div>
+            <div class="col-md-7">$20 per day.</div>
+          </div>
+          <h3>Lane fees</h3>
+          <p>Members shoot free.  Daily fees are $15 for the first shooter and $10 for the second shooter in a single lane. If the second shooter is 13 to 21 years old, he or she may join for just $7.50.</p>
+          <h3>Membership pricing</h3>
+          <h4>For individuals</h4>
+          <p>Individual Memberships (must be 21 years or older) are $40 per month or $250 per year. Membership includes unlimited access to our indoor shooting range and priority lane queu Monday through Friday.</p>
+          <h4>For families</h4>
+          <p>Family Memberships are $350 per year and the primary member must be 21 years or older. To qualify as a family, you must live at the same residence. Families can be as large as 6 people, all of whom must provide a valid ID and proof of age. Membership includes unlimited access to our indoor shooting range and priority lane queu Monday through Friday.</p>
         </div>
-        <div class="col-md-4">
-          <h2>MEMBERSHIP PRICING</h2>
-          <h3>FOR INDIVIDUALS</h3>
-          <p>Individual Memberships (must be 21+ yrs old) are $40 per month or $250 per year. Membership includes unlimited access to our indoor shooting range and priority lane queu Monday through Friday.</p>
-          <h3>FOR FAMILIES</h3>
-          <p>Family Memberships are $350 per year and the primary member must be 21 years or older. To qualify as a family, you must live at the same residence. Families can be as large as 6 people, all of whom must provide a valid id and proof of age. Membership includes unlimited access to our indoor shooting range and priority lane queu Monday through Friday.</p>
+        <div class="col-md-4"><br><br>
+          <a href="range-membership.html"><div class="subnav"><h4>BECOME A MEMBER!</h4></div></a>
+          <h3>Range Rules</h3>
+          <p>NEVER ASK and NEVER ALLOW anyone to point any weapon at any person for any reason.</p>
+          <p>No more than 2 people per lane.</p>
+          <p>No rifles or shotguns allowed in the range.</p>
+          <p>The Range Safety Officer must approve all guns and ammunition carried in.</p>
+          <p>No one under the age of 10 is allowed at any time.</p>
+          <p>Minors (age 10 to 20 years) must be accompanied by an adult (age 21 years or older).</p>
+          <p>Eye protection, hearing protection and closed-toe shoes are required at all times.</p>
+          <h3>Regarding photos</h3>
+          <p>Photos are allowed as long as everyone involved is following safety guidelines and there is no distraction for other shooters, however photographers must respect any request from others who ask them to refrain from picture-taking.</p>
         </div>
       </div>
     </div>
 
+    <div class="orange">
+      <div class="container-fluid text-center">
+        <h2>QUESTIONS? Call 423-478-0080</h2>
+      </div>
+    </div>
     <div class="hero-storefront">
       <div class="container-fluid text-center"></div>
     </div>
